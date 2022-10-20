@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.img {
+  width:200px;
+  height:300px;
+  object-fit: cover;
+}
+.window1 {
+  display:flex;
+  flex-direction:column; 
+  justify-content: center;
+  align-items: center; 
+  background-color: rgb(194, 182, 194);
+  width:100%;
+  height:100%;
+}
+.input_bar{
+  padding: 15px 10px 15px 10px;
+  border-radius: 10px;
+  border: 5px solid black;
+}
+.button{
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(107, 107, 237);
+  color: white;
+  cursor: pointer;
+}
+.button:hover{
+  zoom: 102%;
+  background-color: rgb(31, 31, 204);
+}
+.image{
+  width: 100%;
+  height: 100%;
+}
+.video{
+  width: 100%;
+  height: 100%;
+}
